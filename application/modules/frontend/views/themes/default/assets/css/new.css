@@ -1,0 +1,111 @@
+.coverage {
+    background-color: aliceblue;
+
+}
+
+.coverage h3 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #0c0485e0;
+}
+
+.coverage-bg {
+    position: relative;
+    background-image: url(image/coverage-bg.jpg);
+    margin-top: 35px;
+    box-shadow: 30px 45px 326px 90px rgba(41, 9, 121, 0.76) inset;
+    -webkit-box-shadow: 30px 45px 326px 90px rgba(41, 9, 121, 0.76) inset;
+    -moz-box-shadow: 30px 45px 326px 90px rgba(41, 9, 121, 0.76) inset;
+}
+
+.press-img1 {
+    background-image: url(image/poster\ life\ groupe.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    box-shadow: 2px -101px 39px -12px rgba(9, 5, 5, 1) inset;
+    -webkit-box-shadow: 2px -101px 39px -12px rgba(9, 5, 5, 1) inset;
+    -moz-box-shadow: 2px -101px 39px -12px rgba(9, 5, 5, 1) inset;
+
+}
+
+.press-img2 {
+    background-image: url(image/poster\ life.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    box-shadow: 2px -88px 57px -12px rgba(9, 5, 5, 0.95) inset;
+    -webkit-box-shadow: 2px -88px 57px -12px rgba(9, 5, 5, 0.95) inset;
+    -moz-box-shadow: 2px -88px 57px -12px rgba(9, 5, 5, 0.95) inset;
+
+}
+
+.press-overlay {
+    padding-top: 210px;
+    position: relative;
+
+}
+
+.press-overlay h4 {
+    color: #fff;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.press-overlay i {
+    padding-left: 240px;
+    color: #fff;
+    font-size: 77px;
+}
+
+/* media queri */
+@media (min-width:1200px) {}
+
+@media (max-width:1199.98px) {
+    .press-img1 {
+        background-size: contain;
+    }
+
+    .press-img2 {
+        background-size: contain;
+    }
+
+    .press-overlay i {
+        padding-left: 190px;
+    }
+
+}
+
+@media (max-width:991.98px) {
+
+    .press-overlay {
+        padding-top: 77px;
+    }
+
+    .press-overlay h4 {
+        font-size: larger;
+    }
+
+    .press-overlay i {
+        padding-left: 140px;
+        font-size: 65px;
+    }
+
+    .press-img1 {
+        background-size: cover;
+    }
+
+    .press-img2 {
+        background-size: cover;
+    }
+
+
+}
